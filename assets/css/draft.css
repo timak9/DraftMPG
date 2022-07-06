@@ -1,0 +1,309 @@
+#wrapper {
+    width: 95%;
+    margin: auto;
+}
+
+#selectionAlertBox {
+    z-index: 9999999999999999999999999999;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 1px solid darkgrey;
+    display: none;
+    -webkit-box-shadow: 0px 1px 17px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 1px 17px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 1px 17px 0px rgba(0, 0, 0, 0.75);
+}
+
+.draftButton {
+    width: 90%;
+    height: 90%;
+    line-height: 45px;
+    margin: auto;
+    cursor: pointer;
+    background-color: #BF0000;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.draftButton:hover {
+    background-color: #FFFFFF;
+    color: #BF0000;
+    border: 1px solid #BF0000;
+}
+
+.draftButton a {
+    display: block;
+    height: 100%;
+    width: : 100%;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.draftButton:hover a {
+    color: #BF0000;
+}
+
+#selectionAlertBox p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#selectionAlertBox button {
+    width: 100px;
+    margin-left: 25px;
+    display: inline-block;
+}
+
+#left {
+    width: 25%;
+    float: left;
+    height: 700px;
+}
+
+#mid {
+    width: 50%;
+    float: left;
+    height: 700px;
+}
+
+#right {
+    width: 25%;
+    float: left;
+    height: 700px;
+}
+
+.topContent {
+    width: 95%;
+    height: 50px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.mainContent {
+    width: 95%;
+    height: 530px;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid #BF0000;
+    overflow: auto;
+}
+
+#mid .topContent {
+    width: 95%;
+    height: 70px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#thePlayers {
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+    border: none;
+}
+
+#theTimer {
+    text-align: center;
+    line-height: 50px;
+}
+
+.draftHeader {
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    text-align: center;
+    background-color: #BF0000;
+    color: #FFFFFF;
+}
+
+.draftBody {
+    height: 500px;
+    overflow: auto;
+}
+
+#WYNbody {
+    height: 40px;
+    width: 100%;
+}
+
+.WYNpos {
+    width: 25%;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.WYNnum {
+    width: 25%;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.teamTable {
+    width: 100%;
+    color: #BF0000;
+    text-align: center;
+}
+
+.teamTable th {
+    height: 20px;
+    line-height: 20px;
+    background-color: #BF0000;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.teamTable td {
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #FFE5E5;
+}
+
+.teamTable tr:hover td {
+    background: #BF0000;
+    color: #FFFFFF;
+}
+
+.teamTable td .tradeButton {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    cursor: pointer;
+    background-color: #BF0000;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.teamTable td .tradeButton:hover {
+    background-color: #FFFFFF;
+    color: #BF0000;
+    border: 1px solid #BF0000;
+}
+
+.teamTable tr:nth-child(odd) {
+    background: #FFE5E5;
+}
+
+.teamTable tr:nth-child(odd) td {
+    border: 1px solid #FFFFFF;
+}
+
+.playerName {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#pageNumbers * {
+    display: inline-block;
+}
+
+.pageButton {
+    background: #BF0000;
+    color: #FFFFFF;
+    width: 30px;
+    height: 40px;
+    line-height: height: 25px;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+}
+
+#searchFreeAgents {
+    width: 100%;
+    text-align: center;
+}
+
+#selectName {
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    border: solid 1px #007373;
+    margin: 3px;
+    color: #007373;
+}
+
+#selectName:focus {
+    border: double #007373;
+}
+
+select {
+    height: 30px;
+    margin-top: 10px;
+    background: #FFFFFF;
+    color: #007373;
+    outline: none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 2px solid #007373;
+}
+
+select:focus option {
+    background: #FFFFFF;
+    color: #007373;
+}
+
+.pickTable {
+    width: 100%;
+    color: #BF0000;
+    text-align: center;
+}
+
+.pickTable td {
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #FFE5E5;
+}
+
+.pickTable tr:hover td {
+    background: #BF0000;
+    color: #FFFFFF;
+}
+
+.pickTable tr:nth-child(odd) {
+    background: #FFE5E5;
+}
+
+.pickTable tr:nth-child(odd) td {
+    border: 1px solid #FFFFFF;
+}
+
+.pickTable .roundColumn td {
+    background: #007373;
+    color: #FFFFFF;
+}
+
+.pickTable .headingColumn {
+    background: #007373 !important;
+    opacity: 0.75;
+    color: #FFFFFF;
+}
+
+.pickTable .roundColumn:hover td {
+    background: #007373;
+    color: #FFFFFF;
+}
+
+.pickTable .headingColumn:hover td {
+    background: #007373;
+    color: #FFFFFF;
+}

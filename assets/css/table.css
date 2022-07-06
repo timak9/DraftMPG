@@ -1,0 +1,142 @@
+#noFixturesText {
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+table {
+    margin-top: 10px;
+    width: 100%;
+    color: #BF0000;
+    text-align: center;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 1px 17px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 1px 17px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 1px 17px 0px rgba(0, 0, 0, 0.75);
+}
+
+table th {
+    height: 31px;
+    line-height: 31px;
+    background-color: #BF0000;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+table td {
+    height: 23px;
+    line-height: 23px;
+    border: 1px solid #FFE5E5;
+}
+
+table tr:nth-child(odd) {
+    background: #FFE5E5;
+}
+
+table tr:nth-child(odd) td {
+    border: 1px solid #FFFFFF;
+}
+
+table .teamName {
+    width: 50%;
+}
+
+table .usersTeam {
+    color: #990000;
+    font-weight: bolder;
+}
+
+#fixturesHolder {
+    margin: auto;
+    margin-top: 20px;
+    color: #BF0000;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+#fixturesWrapper {
+    margin-top: 10px;
+    width: 100%;
+    -webkit-box-shadow: 0px 1px 17px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 1px 17px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 1px 17px 0px rgba(0, 0, 0, 0.75);
+}
+
+.fixture {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.fixture:nth-child(even) {
+    background: #FFE5E5;
+}
+
+.fixture a {
+    color: inherit;
+}
+
+.fixtureText {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+#gwSelector {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+#gwSelector * {
+    display: inline-block;
+}
+
+.gwButtonL {
+    float: left;
+    margin-left: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.gwButtonR {
+    float: right;
+    margin-right: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#tableHolder a {
+    color: inherit;
+}
+
+@media screen and (min-width: 900px) {
+    #tableHolder {
+        padding-top: 10px;
+        width: 75%;
+        color: #BF0000;
+        margin: auto;
+    }
+    #fixturesHolder {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 899px) {
+    #tableHolder {
+        padding-top: 10px;
+        width: 100%;
+        color: #BF0000;
+        margin: auto;
+        text-align: center;
+    }
+    #fixturesHolder {
+        width: 100%;
+        margin: auto;
+        margin-top: 10px;
+        font-size: small;
+        text-align: center;
+    }
+}

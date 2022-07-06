@@ -1,0 +1,368 @@
+.blockLink {
+    display: block;
+    height: 100%;
+    width: : 100%;
+    text-decoration: none;
+    color: inherit;
+}
+
+@media screen and (min-width: 900px) {
+    #PageHeader {
+        width: 100%;
+        height: 75px;
+        background: #BF0000;
+        -webkit-box-shadow: 0px 1px 17px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 1px 17px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 1px 17px 0px rgba(0, 0, 0, 0.75);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999999;
+    }
+    #Logo {
+        width: 30%;
+        height: 100%;
+        background-color: #007373;
+        background-image: url("../images/layOutPics/Logo.png");
+        background-size: 119px 75px;
+        background-repeat: no-repeat;
+        background-position: center;
+        float: left;
+    }
+    #Menu {
+        width: 35%;
+        height: 100%;
+        float: left;
+    }
+    #MenuList {
+        list-style-position: inside;
+        list-style: none;
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
+    #MenuList li {
+        float: left;
+        color: #FFFFFF;
+        line-height: 65px;
+        margin-top: 5px;
+        width: 25%;
+        color: #D8D8D8;
+        position: relative;
+    }
+    #MenuList li a {
+        display: block;
+        height: 100%;
+        width: : 100%;
+        text-decoration: none;
+        color: inherit;
+    }
+    #MenuList li a:hover {
+        color: white;
+    }
+    #Menu .selected {
+        background-color: #9C0000;
+        color: #FFFFFF;
+    }
+    #MobileMenu {
+        display: none;
+    }
+    #LogOut {
+        width: 35%;
+        height: 100%;
+        float: left;
+    }
+    #LogOut select {
+        height: 35px;
+        padding: 5px;
+        max-width: 200px;
+        margin-top: 17.5px;
+        background: #FFFFFF;
+        color: #007373;
+        outline: none;
+        display: inline-block;
+        cursor: pointer;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        border: 2px solid #007373;
+        float: left;
+    }
+    #LogOut select:focus option {
+        background: #007373;
+        color: #FFFFFF;
+    }
+    #LogOut .logoutButton {
+        height: 25px;
+        line-height: 25px;
+        text-align: center;
+        padding: 5px;
+        width: 75px;
+        margin-right: 10px;
+        margin-top: 17.5px;
+        background: #FFFFFF;
+        color: #007373;
+        outline: none;
+        display: inline-block;
+        cursor: pointer;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        border: 2px solid #007373;
+        float: right;
+    }
+    #LogOut .logoutButton:hover {
+        background: #007373;
+        color: #FFFFFF;
+        outline: none;
+        border: 2px solid #FFFFFF;
+    }
+    #LogOut .logoutButton a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        color: #007373;
+        text-decoration: none;
+    }
+    #LogOut .logoutButton a:hover {
+        color: #FFFFFF;
+    }
+    #LogOut .logoutButton:hover a {
+        color: #FFFFFF;
+    }
+    #DropDownMenu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 899px) {
+    #PageHeader {
+        width: 100%;
+        height: 75px;
+        background: #BF0000;
+        position: fixed;
+        -webkit-box-shadow: 0px 1px 17px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 1px 17px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 1px 17px 0px rgba(0, 0, 0, 0.75);
+        top: 0;
+        left: 0;
+        z-index: 9999999;
+    }
+    #Logo {
+        width: 80%;
+        height: 100%;
+        background-color: #007373;
+        background-image: url("../images/layOutPics/Logo.png");
+        background-size: 119px 75px;
+        background-repeat: no-repeat;
+        background-position: center;
+        float: left;
+    }
+    #Menu {
+        display: none;
+    }
+    #MenuList {
+        list-style-position: inside;
+        list-style: none;
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
+    #MenuList li {
+        float: left;
+        color: #FFFFFF;
+        line-height: 65px;
+        margin-top: 5px;
+        width: 31%;
+        color: #D8D8D8;
+        position: relative;
+    }
+    #MenuList li a {
+        display: block;
+        height: 100%;
+        width: : 100%;
+        text-decoration: none;
+        color: inherit;
+    }
+    #MenuList li a:hover {
+        color: white;
+    }
+    #Menu .selected {
+        background-color: #9C0000;
+        color: #FFFFFF;
+    }
+    #LogOut {
+        display: none;
+    }
+    #LogOut select {
+        height: 35px;
+        padding: 5px;
+        max-width: 200px;
+        margin-top: 17.5px;
+        background: #FFFFFF;
+        color: #007373;
+        outline: none;
+        display: inline-block;
+        cursor: pointer;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        border: 2px solid #007373;
+        float: left;
+    }
+    #LogOut select:focus option {
+        background: #007373;
+        color: #FFFFFF;
+    }
+    #MobileMenu {
+        width: 20%;
+        height: 100%;
+        float: left;
+    }
+    #MobileMenuPic {
+        width: 50%;
+        height: 37.5px;
+        margin: auto;
+        margin: auto;
+        margin-top: 18.75px;
+        background-image: url(../images/layOutPics/menu.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #DropDownMenu {
+        width: 100%;
+        height: 100px;
+        position: fixed;
+        margin-bottom: 5px;
+        background-color: #BF0000;
+        z-index: 9999998;
+        display: none;
+    }
+    #MobileMenuList {
+        list-style-position: inside;
+        list-style: none;
+        text-align: center;
+        width: 100%;
+        height: 50px;
+        margin-top: 10px;
+        float: left;
+    }
+    #MobileMenuList li {
+        float: left;
+        color: #FFFFFF;
+        line-height: 50px;
+        width: 25%;
+        color: #D8D8D8;
+        position: relative;
+    }
+    #MobileMenuList li a {
+        display: block;
+        height: 100%;
+        width: : 100%;
+        text-decoration: none;
+        color: inherit;
+    }
+    #MobileMenuList li a:hover {
+        color: white;
+    }
+    #MobileMenuList .selected {
+        background-color: #9C0000;
+        color: #FFFFFF;
+    }
+    #DropDownMenu select {
+        height: 30px;
+        padding: 5px;
+        width: 50%;
+        margin-top: 10px;
+        margin-left: 10%;
+        background: #FFFFFF;
+        color: #007373;
+        outline: none;
+        display: inline-block;
+        cursor: pointer;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        border: 2px solid #007373;
+        float: left;
+    }
+    #DropDownMenu select:focus option {
+        background: #007373;
+        color: #FFFFFF;
+    }
+    #DropDownMenu .logoutButton {
+        height: 15px;
+        padding: 5px;
+        width: 25%;
+        text-align: center;
+        margin-top: 10px;
+        background: #FFFFFF;
+        color: #007373;
+        outline: none;
+        display: inline-block;
+        cursor: pointer;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        border: 2px solid #007373;
+        margin-right: 7.5%;
+        float: right;
+    }
+    #DropDownMenu .logoutButton:hover {
+        background: #007373;
+        color: #FFFFFF;
+        outline: none;
+        border: 2px solid #FFFFFF;
+    }
+    #DropDownMenu .logoutButton a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        color: #007373;
+        text-decoration: none;
+    }
+    #DropDownMenu .logoutButton a:hover {
+        color: #FFFFFF;
+    }
+    #DropDownMenu .logoutButton:hover a {
+        color: #FFFFFF;
+    }
+}
+
+.clear {
+    clear: both;
+}
+
+#wrapper {
+    margin-top: 80px;
+    width: 100%;
+}
+
+.openOffers {
+    background-color: #007373;
+    color: #FFFFFF;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    position: absolute;
+    right: -15px;
+    bottom: -15px;
+    text-align: center;
+    z-index: 999999999999999999999999;
+}
+
+.openOffers:hover {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    position: absolute;
+    right: -20px;
+    bottom: -20px;
+}
